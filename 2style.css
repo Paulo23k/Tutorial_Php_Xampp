@@ -1,0 +1,125 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+li {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    gap: 1em;
+}
+nav li:hover {
+    background-color: #7e6cf1;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+nav li {
+    padding: 5px 10px;
+}
+
+img{
+    border: 3px solid rgb(0, 0, 0);
+    width: 700px;
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin: auto;
+}
+
+h1{
+    text-shadow: #b73dd6 2px 2px 2px;
+}
+
+h3{
+    text-shadow: #3114ec 2px 2px 2px;
+    text-align: center;
+    font-size: 30px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-shadow: #000000 1px 1px 1px;
+    
+}
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	margin-top: 50px;
+    border-top: 4px solid;
+    border-image: linear-gradient(to right, #000000, #989799); 
+    border-image-slice: 1; 
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+
+#BaixarOphp{
+   background-color: #636264;
+   border-top: 4px solid;
+   border-image: linear-gradient(to right, #2543db, #7417ed); 
+   border-image-slice: 1; 
+}
+
+.OqueÉphp{
+    background-color: #ffffff;
+    border-top: 4px solid;
+    border-image: linear-gradient(to right, #2543db, #7417ed); 
+    border-image-slice: 1; 
+}
+
+header{
+    background-color: black;
+}
+
+.imgLOGO{
+    width: 100px;
+    filter: grayscale(50%) brightness(120%) contrast(120%);
+    transition: filter 0.3s ease;
+    position: relative;
+    margin-right: 20px;
+}
+    
+.imgLOGO:hover {
+    filter: grayscale(0%) brightness(100%) contrast(100%);
+}
+
+button{
+    bottom: 20px;
+    right: 20px;
+    background-color: #7e6cf1; 
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+}
+    
+  
+  
